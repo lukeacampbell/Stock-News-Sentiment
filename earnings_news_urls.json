@@ -1,6 +1,6 @@
 {
   "earnings_week": "2025-09-22 to 2025-09-28",
-  "generated_at": "2025-09-21T06:09:13.078453",
+  "generated_at": "2025-09-21T08:17:00.131753",
   "companies": {
     "EBF": {
       "earnings_date": "2025-09-22",
@@ -177,13 +177,20 @@
     "FLY": {
       "earnings_date": "2025-09-22",
       "earnings_day": "Monday",
-      "article_count": 3,
+      "article_count": 4,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=6ae8fb9e70ac9ed98b73e1ca404547e374ab959aa2e53a10993141439a852fb2",
         "https://finnhub.io/api/news?id=8d00d4f2ff77242fd8ccf32e73214430b736d23310e44c2ce48e5d936973a38c"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -387,8 +394,9 @@
     "AIR": {
       "earnings_date": "2025-09-23",
       "earnings_day": "Tuesday",
-      "article_count": 23,
+      "article_count": 24,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=8a45f9d7147500fd9b80fb4ce9bd1a07896a43f1719dbfeb0834e75bf7614248",
         "https://finnhub.io/api/news?id=06ac4a03c94dd7c48bd21db457fbfb51f5d3e5ce15b2a0d0ee3cf4cbe18fd9c8",
@@ -414,6 +422,12 @@
         "https://finnhub.io/api/news?id=cd3bf5bd4530956c63d10fae8a834dfb6be324d919d08d2db8efb9aafcc927f5"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -557,8 +571,9 @@
     "AZO": {
       "earnings_date": "2025-09-23",
       "earnings_day": "Tuesday",
-      "article_count": 30,
+      "article_count": 31,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=74f6eda7760c2ad4c97ef5197068ad28be580bdd222e8e8279a9979427b7e3f0",
         "https://finnhub.io/api/news?id=d850edfe97b013c1b04f5cb191750ba2fae1d9e097f0bc44581293ec5479045c",
@@ -591,6 +606,12 @@
         "https://finnhub.io/api/news?id=be94bdfbb49857a8739417e57e6a24966ec67d5a60a7c8d15a21a774c115e9f4"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -898,6 +919,7 @@
       "earnings_day": "Tuesday",
       "article_count": 214,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=92144c883b4941a6e276da2ed3e8cc5bfbc258367178a5178db0f9e28876e260",
         "https://finnhub.io/api/news?id=d146d020334bf3eacf1602752129ec50971fd86181515823998933d786a7ad15",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
@@ -1099,7 +1121,6 @@
         "https://finnhub.io/api/news?id=043655971599b62a4eb43805b37aaf63e1ff31ba739cb021e44fcd5163c9a19b",
         "https://finnhub.io/api/news?id=9fca81fdc7d78c4bdcba439dc2cff07ab6bd430ef7018831d88c28dde99ec477",
         "https://finnhub.io/api/news?id=348eed9434d4728e8499ecf5dfd5d80f0fa6364cd588c59881c0d36c0890e54c",
-        "https://finnhub.io/api/news?id=2fa15ae9d812b4f30f065b82b3f08b48216ac4b25192c5e501a0902dd3fd5e5b",
         "https://finnhub.io/api/news?id=0152ff744783f60fc9b3dee1005f6f32bd43a3102ebdf1e89b469cf55ff2fb0d",
         "https://finnhub.io/api/news?id=7197f4b7e60502eeab5cbd8a0a8f7b4c4e183277572e2ee0635531c7ecf46a26",
         "https://finnhub.io/api/news?id=281739c19523e617051f8cc51a19eea201023027e96c749f958e798253ce7dbb",
@@ -1114,6 +1135,12 @@
         "https://finnhub.io/api/news?id=0f370258f8321ce5391d2c12dfd9cd25d2d8a7e782c8357ec00f9b4f8cc9325a"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=92144c883b4941a6e276da2ed3e8cc5bfbc258367178a5178db0f9e28876e260",
           "headline": "Dow Jones Futures: Apple, Nvidia At Key Levels; Take Profits In These Stocks Going Vertical?",
@@ -2321,12 +2348,6 @@
           "datetime": 1756116593
         },
         {
-          "url": "https://finnhub.io/api/news?id=2fa15ae9d812b4f30f065b82b3f08b48216ac4b25192c5e501a0902dd3fd5e5b",
-          "headline": "Wall Street Week Ahead",
-          "source": "SeekingAlpha",
-          "datetime": 1756015243
-        },
-        {
           "url": "https://finnhub.io/api/news?id=0152ff744783f60fc9b3dee1005f6f32bd43a3102ebdf1e89b469cf55ff2fb0d",
           "headline": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Skyrocket After Aug. 27 (Hint: It's Not Nvidia)",
           "source": "Yahoo",
@@ -2907,8 +2928,9 @@
     "CTAS": {
       "earnings_date": "2025-09-24",
       "earnings_day": "Wednesday",
-      "article_count": 22,
+      "article_count": 23,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=54a09880f22c5d6dcc9afc9553681240f79696c430ee13d3cb1300b4b6a2bca3",
         "https://finnhub.io/api/news?id=cadee9acb11619497f9aac30409773ee5593c2a03a3f4aed02a7ae5951aa2afe",
@@ -2933,6 +2955,12 @@
         "https://finnhub.io/api/news?id=9a85d1b2ea5c0898a065f134741522c921a181b0139f465c714318d27a7095fd"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -3569,8 +3597,9 @@
     "SFIX": {
       "earnings_date": "2025-09-24",
       "earnings_day": "Wednesday",
-      "article_count": 8,
+      "article_count": 9,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=b765622c1daea3f53e904a556922272afc2bc7e647b82d1bfb63b20147ba2a45",
         "https://finnhub.io/api/news?id=cad518b2892a29d17ce44c6b07efaa3b3c86eab0d693698693c030da2a770ed9",
@@ -3581,6 +3610,12 @@
         "https://finnhub.io/api/news?id=adea5df72d68dfd7403a8c3af316c5eb1a706df91b5aa1ae56e009094cd0405a"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -3969,13 +4004,20 @@
     "WS": {
       "earnings_date": "2025-09-24",
       "earnings_day": "Wednesday",
-      "article_count": 3,
+      "article_count": 4,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=f95d5f99aa71f0cffeee24fe4b0ebf68b648be2a0ccf78bf4f3f2ef1381cfdf2",
         "https://finnhub.io/api/news?id=ab78be355073806513dd0df1edc866b44c4000836d03c9c5fee4c866a09ed8c4"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -4059,8 +4101,9 @@
     "ACN": {
       "earnings_date": "2025-09-25",
       "earnings_day": "Thursday",
-      "article_count": 87,
+      "article_count": 88,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=5a606d132162b2288989661e477506e96ef2cbad1e5a92d75ffbe6f52b01ce33",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=3f7e01c0d84f42d5b7ec447c09cd55671327f67ce3e8540a79f3bc9b5dcf9c30",
@@ -4150,6 +4193,12 @@
         "https://finnhub.io/api/news?id=e39e23962f281118bf5731487bc6263f4cd0ee9330762660a82aa50d6d63d601"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=5a606d132162b2288989661e477506e96ef2cbad1e5a92d75ffbe6f52b01ce33",
           "headline": "Accenture (ACN): A Surprising Contender Among Cheap Dividend Stocks",
@@ -4677,8 +4726,9 @@
     "BB": {
       "earnings_date": "2025-09-25",
       "earnings_day": "Thursday",
-      "article_count": 10,
+      "article_count": 11,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=601b7c71fb82267735d7b927caf3fef816b9dfd01d9d6e25469c1a499783134d",
         "https://finnhub.io/api/news?id=597b9329816833c6b35aed2501e3d98aeffc1aa8b4dede07aa98b542d09b26f0",
@@ -4691,6 +4741,12 @@
         "https://finnhub.io/api/news?id=701b8166d60a0e1faf8d759b98302f988a1084346d2063e79498836b324cd19b"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -4879,8 +4935,9 @@
     "COST": {
       "earnings_date": "2025-09-25",
       "earnings_day": "Thursday",
-      "article_count": 159,
+      "article_count": 160,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=45554fe53f4e35197866117fea6789f070d0a8e2fea848996edf254dc39614a7",
         "https://finnhub.io/api/news?id=517beb503d98ffc88fba7a4170b0a6ceeebd7491b4f158ed2c2ba8cff84fb9aa",
@@ -5042,6 +5099,12 @@
         "https://finnhub.io/api/news?id=f47c5c9b39bf7d0c1f5056c4a00c11911015984064275af0e693ad1e56d1aa2c"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",
@@ -6380,8 +6443,9 @@
     "KMX": {
       "earnings_date": "2025-09-25",
       "earnings_day": "Thursday",
-      "article_count": 16,
+      "article_count": 17,
       "urls": [
+        "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
         "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
         "https://finnhub.io/api/news?id=fd9b46c18175fa0e4b1ad13bff3326e9ba9327917f643e9aa646ca0b265ddc6e",
         "https://finnhub.io/api/news?id=74f6eda7760c2ad4c97ef5197068ad28be580bdd222e8e8279a9979427b7e3f0",
@@ -6400,6 +6464,12 @@
         "https://finnhub.io/api/news?id=68e974407f35dbe18e89040e19f8e0c6fa4807caeefc89ed3dec5390b3416f0c"
       ],
       "article_details": [
+        {
+          "url": "https://finnhub.io/api/news?id=ba7e5217cc9ba5dacc938a12d878ed5a1bab3b9381b093db0ae07057a4e83923",
+          "headline": "Wall Street Week Ahead",
+          "source": "SeekingAlpha",
+          "datetime": 1758435038
+        },
         {
           "url": "https://finnhub.io/api/news?id=284ff5d28f729bdb9978df213eb6977b435a117da826f8d5b5db55166f3f760b",
           "headline": "Micron, Accenture Set To Report Earnings",

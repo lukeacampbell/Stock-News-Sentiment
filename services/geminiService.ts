@@ -74,7 +74,7 @@ export const getEarningsData = async (): Promise<EarningsCalendarData> => {
 
       const company: Company = {
         ticker: companySentiment.ticker,
-        name: namesMap[companySentiment.ticker] || 'Unknown Company',
+        name: namesMap[companySentiment.ticker] || companySentiment.ticker,
         sentimentScore: companySentiment.sentiment_score,
         articles_analyzed: companySentiment.articles_analyzed,
         total_articles_available: companySentiment.total_articles_available,

@@ -285,6 +285,16 @@ def get_companies():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/data/company-names.json')
+def serve_company_names():
+    """
+    Serve company names JSON file
+    """
+    try:
+        return send_from_directory('data', 'company-names.json')
+    except FileNotFoundError:
+        return jsonify({"error": "Company names file not found"}), 404
+
 # Catch-all route for React Router
 @app.route('/<path:path>')
 def serve_react_routes(path):

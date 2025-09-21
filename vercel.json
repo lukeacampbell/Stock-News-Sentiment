@@ -2,12 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
-      "use": "@vercel/python"
-    },
-    {
       "src": "package.json",
       "use": "@vercel/node"
+    },
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
@@ -16,8 +16,17 @@
       "dest": "app.py"
     },
     {
+      "src": "/data/(.*)",
+      "dest": "app.py"
+    },
+    {
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico))",
+      "dest": "/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "index.html"
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "installCommand": "npm install && npm run build"
 }
