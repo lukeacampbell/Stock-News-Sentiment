@@ -1,0 +1,5 @@
+{
+  "name": "AI-Powered Earnings Calendar",
+  "description": "An interactive earnings calendar that uses AI to generate weekly reports. Users can navigate between weeks, filter by company name or market cap, and view earnings scheduled before market open and after market close.",
+  "requestFramePermissions": []
+}

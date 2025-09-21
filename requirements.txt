@@ -1,0 +1,27 @@
+# Flask backend dependencies
+flask==3.0.0
+flask-cors==4.0.0
+
+# Task scheduling
+apscheduler==3.10.4
+
+# Data processing and analysis
+pandas>=2.3.2
+requests==2.31.0
+
+# Financial data APIs
+finnhub-python==2.4.20
+
+# AI/LLM integration  
+groq==0.13.0
+
+# Utilities (standard library, but listed for reference)
+# json - standard library
+# os - standard library
+# time - standard library
+# datetime - standard library
+# collections - standard library
+# logging - standard library
+# atexit - standard library
+# traceback - standard library
+# re - standard library
