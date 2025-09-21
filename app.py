@@ -8,6 +8,10 @@ import logging
 from datetime import datetime
 import atexit
 import traceback
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Import our existing modules
 import main

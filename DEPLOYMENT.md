@@ -100,13 +100,28 @@
    - "Saves traders hours of research"
    - "Scalable to thousands of stocks"
 
-## 🔧 Environment Variables Needed
+## 🔧 Environment Variables Setup
+
+### Local Development
+1. Copy `.env.example` to `.env`
+2. Fill in your API keys:
 
 ```env
+# Get your free Groq API key at: https://console.groq.com/
 GROQ_API_KEY=your_groq_api_key_here
+
+# Get your free Finnhub API key at: https://finnhub.io/
 FINNHUB_API_KEY=your_finnhub_api_key_here
+
+FLASK_ENV=development
 PORT=5000
 ```
+
+### For Deployment Platforms
+Add these environment variables in your hosting platform:
+- `GROQ_API_KEY` - Your Groq API key
+- `FINNHUB_API_KEY` - Your Finnhub API key
+- `PORT` - 5000 (or let platform set automatically)
 
 ## 📱 Mobile-Friendly Test
 

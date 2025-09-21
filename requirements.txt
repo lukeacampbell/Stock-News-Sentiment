@@ -15,6 +15,9 @@ finnhub-python==2.4.20
 # AI/LLM integration  
 groq==0.13.0
 
+# Environment variable loading
+python-dotenv==1.0.0
+
 # Utilities (standard library, but listed for reference)
 # json - standard library
 # os - standard library

@@ -2,11 +2,17 @@ import os
 import json
 import time
 from groq import Groq
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Initialize Groq client with environment variable
-client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY", "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")
-)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY not found in environment variables. Please check your .env file.")
+
+client = Groq(api_key=GROQ_API_KEY)
 
 def analyze_sentiment_for_company(company_data, ticker):
     """
