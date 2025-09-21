@@ -6,18 +6,15 @@ const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || '/api';
 
 export const getEarningsData = async (): Promise<EarningsCalendarData> => {
   try {
-    // Fetch sentiment data from Flask backend
-    const sentimentResponse = await fetch(`${API_BASE_URL}/sentiment`);
+    // Fetch sentiment data from static files
+    const sentimentResponse = await fetch('./earnings_sentiment_analysis.json');
     
     if (!sentimentResponse.ok) {
-      if (sentimentResponse.status === 404) {
-        throw new Error("No earnings data available yet. The backend may still be processing data.");
-      }
-      throw new Error(`Failed to fetch sentiment data: ${sentimentResponse.status}`);
+      throw new Error("Failed to load earnings sentiment data");
     }
     
     // Fetch company names data
-    const namesResponse = await fetch('./data/company-names.json');
+    const namesResponse = await fetch('./company-names.json');
     if (!namesResponse.ok) {
       console.warn('Could not fetch company names, will use tickers instead');
     }
@@ -43,7 +40,7 @@ export const getEarningsData = async (): Promise<EarningsCalendarData> => {
     // Fetch earnings data to get actual earnings days
     let earningsData: any = {};
     try {
-      const earningsResponse = await fetch(`${API_BASE_URL}/earnings`);
+      const earningsResponse = await fetch('./earnings_news_urls.json');
       if (earningsResponse.ok) {
         earningsData = await earningsResponse.json();
       }
