@@ -305,6 +305,22 @@ def serve_react_routes(path):
         except FileNotFoundError:
             return jsonify({"error": "React frontend not built. Run 'npm run build' first."}), 404
 
+def load_existing_data():
+    """
+    Load existing JSON data instead of fetching fresh data on startup
+    """
+    try:
+        # Check if we have existing data files
+        if os.path.exists('earnings_news_urls.json'):
+            logger.info("Found existing earnings_news_urls.json - using cached data")
+            return True
+        else:
+            logger.warning("No existing data found. Run 'python main.py' to generate initial data.")
+            return False
+    except Exception as e:
+        logger.error(f"Error loading existing data: {e}")
+        return False
+
 if __name__ == '__main__':
     try:
         logger.info("Starting Flask application...")
@@ -313,9 +329,12 @@ if __name__ == '__main__':
         scheduler.start()
         logger.info("Background scheduler started - will update earnings data every hour")
         
-        # Run initial update
-        logger.info("Running initial earnings data update...")
-        run_earnings_update()
+        # Load existing data instead of fetching fresh data
+        logger.info("Loading existing data...")
+        if load_existing_data():
+            logger.info("Using existing JSON data - app ready!")
+        else:
+            logger.info("No existing data found - first run will take longer")
         
         # Ensure scheduler shuts down when the app exits
         atexit.register(lambda: scheduler.shutdown())

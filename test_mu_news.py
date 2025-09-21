@@ -6,10 +6,18 @@ Test script to fetch fresh news data for MU using the same approach as your orig
 import finnhub
 from datetime import datetime, timedelta
 import time
+import os
+from dotenv import load_dotenv
 
-# API key directly in code
-API_KEY = "d37g7u1r01qskreg40ngd37g7u1r01qskreg40o0"
-finnhub_client = finnhub.Client(api_key=API_KEY)
+# Load environment variables
+load_dotenv()
+
+# Get API key from environment
+FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
+if not FINNHUB_API_KEY:
+    raise ValueError("FINNHUB_API_KEY not found in environment variables. Please check your .env file.")
+
+finnhub_client = finnhub.Client(api_key=FINNHUB_API_KEY)
 
 def test_mu_news():
     """Test fetching news for MU specifically"""
